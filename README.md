@@ -1,4 +1,4 @@
-# Spacegray Dark UI theme
+# Spacegray Eighties UI theme
 
 Port of the [Spacegray Eighties](http://kkga.github.io/spacegray) Sublime Text theme to Atom.
 Designed with the Tomorrow Night Eighties syntax theme in mind.
