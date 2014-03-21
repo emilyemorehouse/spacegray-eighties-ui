@@ -1,0 +1,14 @@
+@import "ui-mixins";
+@import "ui-variables";
+
+.editor .gutter .line-number {
+  &.git-line-modified {
+    border-left: 2px solid @0D;
+  }
+  &.git-line-added {
+    border-left: 2px solid @0B;
+  }
+  &.git-line-removed {
+    border-left: 2px solid @08;
+  }
+}
