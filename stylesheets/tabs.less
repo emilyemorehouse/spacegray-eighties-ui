@@ -9,7 +9,7 @@
 
 .tab-bar {
   height: @tab-height + @tab-top-padding;
-  background: @tab-bar-background-color;
+  background: @tool-panel-background-color;
   padding: 0 13px 0 10px;
   box-sizing: border-box;
 
@@ -27,7 +27,7 @@
     top: @tab-top-padding;
     height: @tab-height;
     line-height: @tab-height;
-    color: @text-color;
+    color: @text-color-subtle;
     padding-left: 0;
     margin-left: 15px;
     transition: color .1s ease-in;
@@ -86,7 +86,7 @@
     }
 
     &, &:before {
-      background-color: @tab-background-color-active;
+      background-color: @editor-background-color;
       height: @tab-height;
     }
 

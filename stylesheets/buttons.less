@@ -2,12 +2,12 @@
 @import "ui-mixins";
 
 .btn-background (@color, @hover-color, @selected-color, @text-color) {
-  color: @text-color;
+  color: @text-color-subtle;
   background-color: transparent;
   transition: color 0.2s;
 
   &:hover, &:focus {
-    color: @text-color;
+    color: @text-color-subtle;
   }
   &.selected,
   &.selected:hover {
