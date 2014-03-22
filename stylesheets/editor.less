@@ -9,6 +9,10 @@
 .editor {
   font-family: @font-family-code;
 
+  .selection .region {
+    border-radius: 3px;
+  }
+
   &.mini {
     color: @text-color-highlight;
     background-color: @input-background-color;
@@ -26,10 +30,20 @@
     transition: background-color 0.1s
   }
 
+
   .highlighted.selection .region {
     -webkit-animation-name: highlight;
     -webkit-animation-duration: 1s;
     -webkit-animation-iteration-count: 1;
   }
 
+  .gutter {
+    color: @text-color-subtle;
+    background-color: @editor-background-color;
+    border-right-color: transparent;
+  }
+
+  .wrap-guide {
+    background-color: @01;
+  }
 }
