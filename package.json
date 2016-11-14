@@ -1,7 +1,7 @@
 {
   "name": "spacegray-eighties-ui",
   "theme": "ui",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Port of the Spacegray Eighties (http://kkga.github.io/spacegray) Sublime Text theme to Atom",
   "license": "MIT",
   "repository": "https://github.com/emilyemorehouse/spacegray-eighties-ui",
